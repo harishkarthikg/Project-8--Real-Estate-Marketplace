@@ -2,9 +2,16 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
+# Truffle develop
+- Run Truffle develop
+- Compile
+- migrate --reset 
 
 # Truffle Test
 - Run `truffle test` to test the code.
+
+# Rinkeby Network 
+- Run Truffle migrate --reset --network rinkeby
 
 # Rinkeby Contract Address
 First the `Verifier` contract is deployed then the `SolnSquareVerifier` contract using the `Verifier` address.
